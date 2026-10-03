@@ -1,0 +1,17 @@
+[
+  {
+    "id": "bedrock",
+    "name": "AWS Bedrock Mantle (OpenAI-Compatible)",
+    "type": "openai-compatible",
+    "baseUrl": "https://bedrock-mantle.us-east-1.api.aws/v1",
+    "apiKey": "YOUR_BEDROCK_API_KEY",
+    "defaultModel": "qwen.qwen3-coder-next",
+    "models": [
+      "qwen.qwen3-coder-next",
+      "deepseek.v3.2",
+      "qwen.qwen3-32b",
+      "zai.glm-4.7-flash"
+    ],
+    "isDefault": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "intelligent-tesla",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix agentos run dev",
+    "build": "npm --prefix agentos run build",
+    "preview": "npm --prefix agentos run preview"
+  }
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "data-analyst",
+    "name": "Data Analyst",
+    "description": "Analyzes datasets and writes pandas code.",
+    "role": "Data Scientist",
+    "systemPrompt": "You are Data Analyst, an expert in statistics, Python, and data analytics.",
+    "provider": "bedrock",
+    "model": "qwen.qwen3-coder-next",
+    "temperature": 0.7,
+    "maxTokens": 2048,
+    "capabilities": [
+      "Code Generation",
+      "Reasoning"
+    ],
+    "status": "READY",
+    "avatar": "🤖",
+    "color": "#818cf8",
+    "createdAt": 1791015929809,
+    "updatedAt": 1791017534195,
+    "totalRuns": 1,
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "lastExecution": 1791015961511
+  },
+  {
+    "id": "code-builder",
+    "name": "Code Builder",
+    "role": "Software Engineer",
+    "description": "Builds software solutions from natural-language requirements.",
+    "systemPrompt": "You are Code Builder, a professional software engineering AI agent. Understand the user's requirement, reason about the solution, provide implementation details, and generate high-quality code when requested. Clearly explain important decisions and mention assumptions when necessary.",
+    "provider": "bedrock",
+    "model": "qwen.qwen3-coder-next",
+    "temperature": 0.7,
+    "maxTokens": 2048,
+    "capabilities": [
+      "Code Generation",
+      "Reasoning",
+      "Testing"
+    ],
+    "status": "READY",
+    "createdAt": 1791015642156,
+    "updatedAt": 1791016087087,
+    "totalRuns": 5,
+    "successfulRuns": 5,
+    "failedRuns": 0,
+    "avatar": "⚡",
+    "color": "#6366f1",
+    "lastExecution": 1791016087084
+  },
+  {
+    "id": "agent-terminator",
+    "name": "Agent Terminator",
+    "role": "Process Killer & Swarm Sentinel",
+    "description": "Emergency watchdog agent that force-terminates all active agent executions, aborts runaway workflows, and safely resets system resources.",
+    "systemPrompt": "You are the Agent Terminator, an emergency system supervisor and rogue process killer in AgentOS.\nYour primary mission is to protect the agent swarm from runaway execution loops, unconstrained budget depletion, and frozen agent processes.\nWhen requested to terminate or kill running agents:\n1. Acknowledge the emergency kill protocol.\n2. Confirm that all running agent worker processes and mission tasks have been terminated.\n3. List the terminated agents and freed resources.\n4. Report that system health has returned to STANDBY/READY state.\nKeep your response commanding, precise, and authoritative.",
+    "provider": "bedrock",
+    "model": "qwen.qwen3-coder-next",
+    "temperature": 0.3,
+    "maxTokens": 2048,
+    "capabilities": [
+      "Process Termination",
+      "Emergency Kill Switch",
+      "System Watchdog",
+      "Reasoning",
+      "API Calls"
+    ],
+    "status": "READY",
+    "createdAt": 1791017287345,
+    "updatedAt": 1791017618725,
+    "totalRuns": 4,
+    "successfulRuns": 4,
+    "failedRuns": 0,
+    "avatar": "☠️",
+    "color": "#ef4444",
+    "lastExecution": 1791017618723
+  }
+]
